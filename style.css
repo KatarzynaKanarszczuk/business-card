@@ -23,9 +23,14 @@ main {
     margin: 16px;
     padding: 32px;
 }
+
+.person {
+    display: flex;
+    align-items: flex-start;
+}
+
 .person__info {
     margin-bottom: 24px;
-
 }
 
 .person__description {
@@ -47,6 +52,12 @@ main {
     font-size: 36px;
     margin: 0;
     font-weight: normal;
+}
+
+.person__picture {
+    margin-right: 33px;
+    width: 25%;
+    border-radius: 50%;
 }
 
 .person__position {
